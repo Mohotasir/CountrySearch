@@ -1,0 +1,42 @@
+
+
+.country-container{
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 20px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    box-shadow: 5px  10px 10px 0px rgba(204, 202, 202, 0.5);
+    transform: translate(20deg);
+    transition: .2s;
+    
+
+    
+}
+.country-container:hover{
+    box-shadow: 10px  10px 10px 0px rgba(143, 142, 142, 0.5);
+   
+}
+
+.country-name{
+    color: rgb(122, 122, 122);
+    
+}
+.image-div{
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+.country-image{
+    max-height: 150px;
+    max-width: 100%;
+    margin: auto;
+   
+  
+   
+}
+.visited{
+    background-color: rgb(191, 201, 199);
+}
